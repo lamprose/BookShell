@@ -8,7 +8,10 @@
         <item name="qmui_skin_support_topbar_text_btn_color_state_list">@color/qmui_config_color_white</item>
         <item name="qmui_skin_support_topbar_image_tint_color">@color/qmui_config_color_white</item>
     </style>
-    <style name="AppTheme.Launcher">
+    
+    <style name="AppTheme.LauncherBase" />
+
+    <style name="AppTheme.Launcher" parent="AppTheme.LauncherBase">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@drawable/launcher_bg</item>
     </style>
